@@ -1,0 +1,22 @@
+{
+  "name": "stream-row-cache",
+  "version": "1.0.0",
+  "description": "Use Redis Streams to cache entire results sets",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redis",
+    "cache"
+  ],
+  "author": "Kyle J Davis",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^3.0.2",
+    "slonik": "^22.4.11"
+  }
+}
