@@ -41,3 +41,6 @@ The cursors in this repo are really Redis Stream entry IDs. If you want to start
 
 If you want to go to an arbitrary page, supply the starting chunk. So, for example, if you have ten chunks per page, page two would start on cursor `0-11`.
 
+## Limits 
+
+In theory, this will work for up to `Number.MAX_SAFE_INTEGER` (9,007,199,254,740,991) chunks, anything over will not work predictably due to percision issues. 
